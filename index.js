@@ -1,0 +1,62 @@
+
+var list = document.getElementById("fruitList")
+var listItem = document.createElement("li")
+list.appendChild(listItem)
+var listContent = document.createTextNode("Banana")
+listItem.appendChild(listContent)
+list.insertBefore(listItem , list.childNodes[0])
+
+var listItem = document.createElement("li")
+list.appendChild(listItem)
+var listContent = document.createTextNode("Cherry")
+listItem.appendChild(listContent)
+list.insertBefore(listItem , list.childNodes[2])
+
+var listItem = document.createElement("li")
+list.appendChild(listItem)
+var listContent = document.createTextNode("Watermelon")
+listItem.appendChild(listContent)
+list.insertBefore(listItem , list.childNodes[1])
+
+var listItem = document.createElement("li")
+list.appendChild(listItem)
+var listContent = document.createTextNode("Guava")
+listItem.appendChild(listContent)
+list.insertBefore(listItem , list.childNodes[5])
+
+var listItem = document.createElement("li")
+list.appendChild(listItem)
+var listContent = document.createTextNode("Dragon Fruit")
+listItem.appendChild(listContent)
+list.insertBefore(listItem , list.childNodes[11])
+
+var listItem = document.createElement("li")
+list.appendChild(listItem)
+var listContent = document.createTextNode("Strawberry")
+listItem.appendChild(listContent)
+list.insertBefore(listItem , list.childNodes[4])
+
+var listItem = document.createElement("li")
+list.appendChild(listItem)
+var listContent = document.createTextNode("Pineapple")
+listItem.appendChild(listContent)
+list.insertBefore(listItem , list.childNodes[7])
+
+var listItem = document.createElement("li")
+list.appendChild(listItem)
+var listContent = document.createTextNode("Custard Apple")
+listItem.appendChild(listContent)
+list.insertBefore(listItem , list.childNodes[3])
+
+var listItem = document.createElement("li")
+list.appendChild(listItem)
+var listContent = document.createTextNode("Pomogranate")
+listItem.appendChild(listContent)
+list.insertBefore(listItem , list.childNodes[8])
+
+var listItem = document.createElement("li")
+list.appendChild(listItem)
+var listContent = document.createTextNode("Grapes")
+listItem.appendChild(listContent)
+list.insertBefore(listItem , list.childNodes[10])
+
